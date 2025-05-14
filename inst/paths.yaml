@@ -6,9 +6,9 @@ urls:
       gnps: cleaned_gnps_library.mgf
   massbank:
     patterns: 
-      massbank: MassBank_NIST.msp
+      massbank: MassBank.msp_NIST
     url: https://github.com/MassBank/MassBank-data/releases/download
-    version: 2024.11
+    version: 2025.05.1
   merlin:
     doi: 10.5281/zenodo.13911806
     patterns:
