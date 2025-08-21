@@ -54,3 +54,6 @@ rsconnect/
 #
 data/source
 .log
+
+README_files/
+README.html
