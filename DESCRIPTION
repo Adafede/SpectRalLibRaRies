@@ -18,6 +18,8 @@ Imports:
 Remotes:
     taxonomicallyinformedannotation/tima
 Suggests: 
+    BiocManager (>= 1.30.25),
+    BiocVersion (>= 3.20.0),
     lifecycle,
     R.utils,
     spelling,
