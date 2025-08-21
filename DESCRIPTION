@@ -20,6 +20,7 @@ Remotes:
 Suggests: 
     BiocManager (>= 1.30.25),
     BiocVersion (>= 3.20.0),
+    grateful (>= 0.2.12),
     lifecycle,
     R.utils,
     spelling,
