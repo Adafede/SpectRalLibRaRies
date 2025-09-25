@@ -44,7 +44,7 @@ used:<https://doi.org/10.5281/zenodo.11566051>
 | BiocManager | 1.30.26 | Morgan and Ramos (2025) |
 | BiocVersion | 3.22.0 | Morgan (2025) |
 | knitr | 1.50 | Xie (2014); Xie (2015); Xie (2025) |
-| logger | 0.4.0 | Daróczi and Wickham (2024) |
+| logger | 0.4.1 | Daróczi and Wickham (2025) |
 | rmarkdown | 2.29 | Xie, Allaire, and Grolemund (2018); Xie, Dervieux, and Riederer (2020); Allaire et al. (2024) |
 | tidyverse | 2.0.0 | Wickham et al. (2019) |
 | tima | 2.12.0 | Rutz et al. (2019); Rutz and Allard (2025) |
@@ -64,7 +64,7 @@ Luraschi, Kevin Ushey, Aron Atkins, et al. 2024.
 
 <div id="ref-logger" class="csl-entry">
 
-Daróczi, Gergely, and Hadley Wickham. 2024.
+Daróczi, Gergely, and Hadley Wickham. 2025.
 *<span class="nocase">logger</span>: A Lightweight, Modern and Flexible
 Logging Utility*. <https://doi.org/10.32614/CRAN.package.logger>.
 
