@@ -1,16 +1,16 @@
 ---
 urls:
   gnps:
-    doi: 10.5281/zenodo.11566051
+    doi: "10.5281/zenodo.11566051"
     patterns:
       gnps: cleaned_gnps_library.mgf
   massbank:
     patterns: 
-      massbank: MassBank.msp_NIST
+      massbank: MassBank_NISTformat.msp
     url: https://github.com/MassBank/MassBank-data/releases/download
-    version: 2025.05.1
+    version: "2025.10"
   merlin:
-    doi: 10.5281/zenodo.13911806
+    doi: "10.5281/zenodo.16984129"
     patterns:
       enamdisc_neg: 20241003_enamdisc_neg_ms2.mgf
       enamdisc_pos: 20241003_enamdisc_pos_ms2.mgf
@@ -26,6 +26,10 @@ urls:
       nihnp_pos: 20241003_nihnp_pos_ms2.mgf
       otavapep_neg: 20241003_otavapep_neg_ms2.mgf
       otavapep_pos: 20241003_otavapep_pos_ms2.mgf
+      mcediv_neg: 20250828_mcediv_50k_sub_neg_ms2.mgf
+      mcediv_pos: 20250828_mcediv_50k_sub_pos_ms2.mgf
+      targetmol_neg: 20250828_targetmol_hts_np_neg_ms2.mgf
+      targetmol_pos: 20250828_targetmol_hts_np_pos_ms2.mgf
   wikidata_isdb:
     doi: 10.5281/zenodo.5607185
     patterns:
