@@ -26,26 +26,23 @@ purrr::map2(
   doi = doi_mgf
 )
 
-tima:::prepare_libraries_spectra(
+tima::prepare_libraries_spectra(
   input = path_mgf,
   nam_lib = "merlin",
   col_ad = "ADDUCT",
   col_ce = "COLLISION_ENERGY",
   col_ci = NULL,
-  col_em = "EXACTMASS",
   col_in = "INCHI",
   col_io = NULL,
   col_ik = "INCHIAUX",
   col_il = NULL,
-  col_mf = "FORMULA",
   col_na = "NAME",
   col_po = "IONMODE",
   col_sm = "SMILES",
   col_sn = NULL,
   col_si = "USI",
   col_sp = NULL,
-  col_sy = NULL,
-  col_xl = NULL
+  col_sy = NULL
 )
 end <- Sys.time()
 logger::log_success("Script finished in ", format(end - start))

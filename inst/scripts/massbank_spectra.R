@@ -15,26 +15,23 @@ purrr::map2(
   .f = tima::get_file,
 )
 
-tima:::prepare_libraries_spectra(
+tima::prepare_libraries_spectra(
   input = path_mgf,
   nam_lib = "massbank",
   col_ad = "Precursor_type",
   col_ce = "Collision_energy",
   col_ci = NULL,
-  col_em = "ExactMass",
   col_in = "InChI",
   col_io = NULL,
   col_ik = "InChIKey",
   col_il = NULL,
-  col_mf = "Formula",
   col_na = "Name",
   col_po = "Ion_mode",
   col_sm = "smiles",
   col_sn = NULL,
   col_si = "accession",
   col_sp = "Splash",
-  col_sy = "Synon",
-  col_xl = NULL
+  col_sy = "Synon"
 )
 end <- Sys.time()
 logger::log_success("Script finished in ", format(end - start))
