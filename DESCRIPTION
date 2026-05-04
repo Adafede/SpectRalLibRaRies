@@ -25,12 +25,12 @@ Suggests:
     R.utils,
     spelling,
     testthat (>= 3.3.2)
+ByteCompile: TRUE
+Config/roxygen2/markdown: TRUE
+Config/roxygen2/version: 8.0.0
 Config/testthat/edition: 3
 Encoding: UTF-8
-LazyData: true
-ByteCompile: true
-Roxygen: list(markdown = TRUE)
-RoxygenNote: 7.3.3
+Language: en-US
+LazyData: TRUE
 biocViews: computationalMetabolomics, spectralLibraries
 X-schema.org-keywords: computationalMetabolomics, spectralLibraries
-Language: en-US
