@@ -1,5 +1,9 @@
 ---
 urls:
+  enveda_180:
+    doi: 10.5281/zenodo.20436851
+    patterns: 
+      enveda_180: enveda-180.mgf.gz
   gnps:
     doi: 10.5281/zenodo.11566051
     patterns:
