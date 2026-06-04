@@ -26,6 +26,7 @@ Also look at
 
 - The *RforMassSpectrometry* packages suite:
   <https://doi.org/10.3390/metabo12020173>
+- Enveda-180: <https://doi.org/10.5281/zenodo.20436851>
 - GNPS: <https://doi.org/10.5281/zenodo.11566051>,
   <https://doi.org/10.1038/nbt.3597>
 - MassBank: <https://doi.org/10.5281/zenodo.3378723>,
@@ -40,14 +41,15 @@ Also look at
 
 | Package | Version | Citation |
 |:---|:---|:---|
-| base | 4.5.3 | R Core Team (2026) |
+| base | 4.6.0 | R Core Team (2026) |
 | BiocManager | 1.30.27 | Morgan and Ramos (2025) |
-| BiocVersion | 3.22.0 | Morgan (2025) |
+| BiocVersion | 3.23.1 | Morgan (2025) |
 | knitr | 1.51 | Xie (2014); Xie (2015); Xie (2025) |
-| logger | 0.4.1 | Daróczi and Wickham (2025) |
+| logger | 0.4.2 | Daróczi and Wickham (2026) |
+| R.utils | 2.13.0 | Bengtsson (2025) |
 | rmarkdown | 2.31 | Xie et al. (2018); Xie et al. (2020); Allaire et al. (2026) |
 | tidyverse | 2.0.0 | Wickham et al. (2019) |
-| tima | 2.12.0.9000 | Rutz et al. (2019); Rutz and Allard (2025) |
+| tima | 2.13.0.9000 | Rutz et al. (2019); Rutz and Allard (2026) |
 | yaml | 2.3.12 | Stephens and Simonov (2025) |
 
 <div id="refs" class="references csl-bib-body hanging-indent">
@@ -60,9 +62,16 @@ Allaire, JJ, Yihui Xie, Christophe Dervieux, et al. 2026.
 
 </div>
 
+<div id="ref-Rutils" class="csl-entry">
+
+Bengtsson, Henrik. 2025. *<span class="nocase">R.utils</span>: Various
+Programming Utilities*. <https://doi.org/10.32614/CRAN.package.R.utils>.
+
+</div>
+
 <div id="ref-logger" class="csl-entry">
 
-Daróczi, Gergely, and Hadley Wickham. 2025.
+Daróczi, Gergely, and Hadley Wickham. 2026.
 *<span class="nocase">logger</span>: A Lightweight, Modern and Flexible
 Logging Utility*. <https://doi.org/10.32614/CRAN.package.logger>.
 
@@ -71,7 +80,7 @@ Logging Utility*. <https://doi.org/10.32614/CRAN.package.logger>.
 <div id="ref-BiocVersion" class="csl-entry">
 
 Morgan, Martin. 2025. *BiocVersion: Set the Appropriate Version of
-Bioconductor Packages*. <https://doi.org/10.18129/B9.bioc.BiocVersion>.
+Bioconductor Packages*.
 
 </div>
 
@@ -87,13 +96,13 @@ Bioconductor Project Package Repository*.
 
 R Core Team. 2026. *R: A Language and Environment for Statistical
 Computing*. R Foundation for Statistical Computing.
-<https://www.R-project.org/>.
+<https://doi.org/10.32614/R.manuals>.
 
 </div>
 
-<div id="ref-tima2025" class="csl-entry">
+<div id="ref-tima2026" class="csl-entry">
 
-Rutz, Adriano, and Pierre-Marie Allard. 2025.
+Rutz, Adriano, and Pierre-Marie Allard. 2026.
 *<span class="nocase">tima</span>: Taxonomically Informed Metabolite
 Annotation*. <https://doi.org/10.5281/zenodo.5797920>.
 
