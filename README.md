@@ -26,7 +26,8 @@ Also look at
 
 - The *RforMassSpectrometry* packages suite:
   <https://doi.org/10.3390/metabo12020173>
-- Enveda-180: <https://doi.org/10.5281/zenodo.20436851>
+- Enveda-180: <https://doi.org/10.5281/zenodo.20436851>,
+  <https://doi.org/10.26434/chemrxiv.15004319>
 - GNPS: <https://doi.org/10.5281/zenodo.11566051>,
   <https://doi.org/10.1038/nbt.3597>
 - MassBank: <https://doi.org/10.5281/zenodo.3378723>,
