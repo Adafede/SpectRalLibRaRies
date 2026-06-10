@@ -2,14 +2,14 @@
 urls:
   enveda_180:
     doi: 10.5281/zenodo.20436851
-    patterns: 
+    patterns:
       enveda_180: enveda-180.mgf.gz
   gnps:
     doi: 10.5281/zenodo.11566051
     patterns:
       gnps: cleaned_gnps_library.mgf
   massbank:
-    patterns: 
+    patterns:
       massbank: MassBank_NISTformat.msp
     url: https://github.com/MassBank/MassBank-data/releases/download
     version: "2025.10"
