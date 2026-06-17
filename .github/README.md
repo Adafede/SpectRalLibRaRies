@@ -1,11 +1,10 @@
-
-
 <!-- README.md is generated from README.qmd. Please edit that file -->
 
 # SpectRalLibRaRies
 
-> **This repository has moved to [Codeberg](https://codeberg.org/adafede/SpectRalLibRaRies).**
-> This mirror is no longer maintained.
+> **This repository has moved to
+> [Codeberg](https://codeberg.org/adafede/SpectRalLibRaRies).** This mirror is
+> no longer maintained.
 
 <!-- badges: start -->
 
@@ -18,12 +17,11 @@ This package provides spectral libraries in R.
 ⚠️ This repository is not maintained and will not be except for extreme
 interest. It has just been opened for the sake of transparency.
 
-For now, the version of MassBank used and the Zenodo repository IDs are
-added manually to the file names. This might change in the future.
+For now, the version of MassBank used and the Zenodo repository IDs are added
+manually to the file names. This might change in the future.
 
-Also look at
-<https://github.com/taxonomicallyinformedannotation/tima-isdb-pos> and
-<https://github.com/taxonomicallyinformedannotation/tima-isdb-neg>
+Also look at <https://github.com/taxonomicallyinformedannotation/tima-isdb-pos>
+and <https://github.com/taxonomicallyinformedannotation/tima-isdb-neg>
 
 ## Main Citations
 
@@ -41,17 +39,17 @@ used:<https://doi.org/10.5281/zenodo.11566051>
 
 ## Additional software credits
 
-| Package | Version | Citation |
-|:---|:---|:---|
-| base | 4.5.1 | R Core Team (2025) |
-| BiocManager | 1.30.26 | Morgan and Ramos (2025) |
-| BiocVersion | 3.22.0 | Morgan (2025) |
-| knitr | 1.50 | Xie (2014); Xie (2015); Xie (2025) |
-| logger | 0.4.1 | Daróczi and Wickham (2025) |
-| rmarkdown | 2.29 | Xie, Allaire, and Grolemund (2018); Xie, Dervieux, and Riederer (2020); Allaire et al. (2024) |
-| tidyverse | 2.0.0 | Wickham et al. (2019) |
-| tima | 2.12.0 | Rutz et al. (2019); Rutz and Allard (2025) |
-| yaml | 2.3.10 | Garbett et al. (2024) |
+  | Package     | Version | Citation                                                                                      |
+  | :---------- | :------ | :-------------------------------------------------------------------------------------------- |
+  | base        | 4.5.1   | R Core Team (2025)                                                                            |
+  | BiocManager | 1.30.26 | Morgan and Ramos (2025)                                                                       |
+  | BiocVersion | 3.22.0  | Morgan (2025)                                                                                 |
+  | knitr       | 1.50    | Xie (2014); Xie (2015); Xie (2025)                                                            |
+  | logger      | 0.4.1   | Daróczi and Wickham (2025)                                                                    |
+  | rmarkdown   | 2.29    | Xie, Allaire, and Grolemund (2018); Xie, Dervieux, and Riederer (2020); Allaire et al. (2024) |
+  | tidyverse   | 2.0.0   | Wickham et al. (2019)                                                                         |
+  | tima        | 2.12.0  | Rutz et al. (2019); Rutz and Allard (2025)                                                    |
+  | yaml        | 2.3.10  | Garbett et al. (2024)                                                                         |
 
 <div id="refs" class="references csl-bib-body hanging-indent"
 entry-spacing="0">

@@ -10,32 +10,43 @@ bibliography: grateful-refs.bib
 # SpectRalLibRaRies
 
 <!-- badges: start -->
-[![Lifecycle: experimental](https://img.shields.io/badge/lifecycle-experimental-orange.svg)](https://lifecycle.r-lib.org/articles/stages.html#experimental)
+[![Lifecycle:
+experimental](https://img.shields.io/badge/lifecycle-experimental-orange.svg)](https://lifecycle.r-lib.org/articles/stages.html#experimental)
 <!-- badges: end -->
 
 This package provides spectral libraries in R.
 
-⚠️ This repository is not maintained and will not be except for extreme interest.
-It has just been opened for the sake of transparency.
+⚠️ This repository is not maintained and will not be except for extreme
+interest. It has just been opened for the sake of transparency.
 
-For now, the version of MassBank used and the Zenodo repository IDs are added manually to the file names.
-This might change in the future.
+For now, the version of MassBank used and the Zenodo repository IDs are added
+manually to the file names. This might change in the future.
 
-Also look at <https://github.com/taxonomicallyinformedannotation/tima-isdb-pos> and <https://github.com/taxonomicallyinformedannotation/tima-isdb-neg>
+Also look at <https://github.com/taxonomicallyinformedannotation/tima-isdb-pos>
+and <https://github.com/taxonomicallyinformedannotation/tima-isdb-neg>
 
 ## Main Citations
 
-- The *RforMassSpectrometry* packages suite: <https://doi.org/10.3390/metabo12020173>
-- Enveda-180: <https://doi.org/10.5281/zenodo.20436851>, <https://doi.org/10.26434/chemrxiv.15004319>
-- GNPS: <https://doi.org/10.5281/zenodo.11566051>, <https://doi.org/10.1038/nbt.3597>
-- MassBank: <https://doi.org/10.5281/zenodo.3378723>, <https://doi.org/10.1093/nar/gkaf1193>
-- Merlin: <https://doi.org/10.5281/zenodo.13911806>, <https://doi.org/10.1038/s41592-025-02813-0>
-- ISDB-NormanSusDat: <https://zenodo.org/records/14854025>, <https://doi.org/10.1007/s00216-025-06034-4>
+- The *RforMassSpectrometry* packages suite:
+  <https://doi.org/10.3390/metabo12020173>
+- Enveda-180: <https://doi.org/10.5281/zenodo.20436851>,
+  <https://doi.org/10.26434/chemrxiv.15004319>
+- GNPS: <https://doi.org/10.5281/zenodo.11566051>,
+  <https://doi.org/10.1038/nbt.3597>
+- MassBank: <https://doi.org/10.5281/zenodo.3378723>,
+  <https://doi.org/10.1093/nar/gkaf1193>
+- Merlin: <https://doi.org/10.5281/zenodo.13911806>,
+  <https://doi.org/10.1038/s41592-025-02813-0>
+- ISDB-NormanSusDat: <https://zenodo.org/records/14854025>,
+  <https://doi.org/10.1007/s00216-025-06034-4>
 - ISDB-Wikidata: <https://doi.org/10.5281/zenodo.14887271>
 
 ## Additional software credits
 
-```{r, echo = FALSE, message = FALSE}
+```{r}
+#| echo: false
+#| message: false
+
 # Check if DESCRIPTION is in current dir
 # Else `altdoc` will not find the dependencies
 desc_path <- if (file.exists("DESCRIPTION")) {

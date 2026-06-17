@@ -1,5 +1,3 @@
-
-
 <!-- README.md is generated from README.qmd. Please edit that file -->
 
 # SpectRalLibRaRies
@@ -15,12 +13,11 @@ This package provides spectral libraries in R.
 ⚠️ This repository is not maintained and will not be except for extreme
 interest. It has just been opened for the sake of transparency.
 
-For now, the version of MassBank used and the Zenodo repository IDs are
-added manually to the file names. This might change in the future.
+For now, the version of MassBank used and the Zenodo repository IDs are added
+manually to the file names. This might change in the future.
 
-Also look at
-<https://github.com/taxonomicallyinformedannotation/tima-isdb-pos> and
-<https://github.com/taxonomicallyinformedannotation/tima-isdb-neg>
+Also look at <https://github.com/taxonomicallyinformedannotation/tima-isdb-pos>
+and <https://github.com/taxonomicallyinformedannotation/tima-isdb-neg>
 
 ## Main Citations
 
@@ -40,18 +37,18 @@ Also look at
 
 ## Additional software credits
 
-| Package | Version | Citation |
-|:---|:---|:---|
-| base | 4.6.0 | R Core Team (2026) |
-| BiocManager | 1.30.27 | Morgan and Ramos (2025) |
-| BiocVersion | 3.23.1 | Morgan (2025) |
-| knitr | 1.51 | Xie (2014); Xie (2015); Xie (2025) |
-| logger | 0.4.2 | Daróczi and Wickham (2026) |
-| R.utils | 2.13.0 | Bengtsson (2025) |
-| rmarkdown | 2.31 | Xie et al. (2018); Xie et al. (2020); Allaire et al. (2026) |
-| tidyverse | 2.0.0 | Wickham et al. (2019) |
-| tima | 2.13.0.9000 | Rutz et al. (2019); Rutz and Allard (2026) |
-| yaml | 2.3.12 | Stephens and Simonov (2025) |
+  | Package     | Version     | Citation                                                    |
+  | :---------- | :---------- | :---------------------------------------------------------- |
+  | base        | 4.6.0       | R Core Team (2026)                                          |
+  | BiocManager | 1.30.27     | Morgan and Ramos (2025)                                     |
+  | BiocVersion | 3.23.1      | Morgan (2025)                                               |
+  | knitr       | 1.51        | Xie (2014); Xie (2015); Xie (2025)                          |
+  | logger      | 0.4.2       | Daróczi and Wickham (2026)                                  |
+  | R.utils     | 2.13.0      | Bengtsson (2025)                                            |
+  | rmarkdown   | 2.31        | Xie et al. (2018); Xie et al. (2020); Allaire et al. (2026) |
+  | tidyverse   | 2.0.0       | Wickham et al. (2019)                                       |
+  | tima        | 2.13.0.9000 | Rutz et al. (2019); Rutz and Allard (2026)                  |
+  | yaml        | 2.3.12      | Stephens and Simonov (2025)                                 |
 
 <div id="refs" class="references csl-bib-body hanging-indent">
 
