@@ -34,6 +34,10 @@ urls:
       mcediv_pos: 20250828_mcediv_50k_sub_pos_ms2.mgf
       targetmol_neg: 20250828_targetmol_hts_np_neg_ms2.mgf
       targetmol_pos: 20250828_targetmol_hts_np_pos_ms2.mgf
+  multims2:
+    doi: 10.5281/zenodo.17417089
+    patterns:
+      multims2: zamboni-lab/MultiMS2-0.0.1.zip
   normansusdat_isdb:
     doi: 10.5281/zenodo.14854025
     patterns:

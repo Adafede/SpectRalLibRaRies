@@ -37,6 +37,8 @@ and <https://github.com/taxonomicallyinformedannotation/tima-isdb-neg>
   <https://doi.org/10.1093/nar/gkaf1193>
 - Merlin: <https://doi.org/10.5281/zenodo.13911806>,
   <https://doi.org/10.1038/s41592-025-02813-0>
+- MultiMS2: <https://doi.org/10.5281/zenodo.17417088>,
+  <https://doi.org/10.1093/gigascience/giag069>
 - ISDB-NormanSusDat: <https://zenodo.org/records/14854025>,
   <https://doi.org/10.1007/s00216-025-06034-4>
 - ISDB-Wikidata: <https://doi.org/10.5281/zenodo.14887271>
