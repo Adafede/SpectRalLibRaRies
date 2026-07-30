@@ -90,7 +90,7 @@
     "SystemRequirements": null
   },
   "keywords": ["computationalMetabolomics", "spectralLibraries"],
-  "fileSize": "5884861.24KB",
+  "fileSize": "5884860.428KB",
   "releaseNotes": "https://github.com/Adafede/SpectRalLibRaRies/blob/main/NEWS.md",
   "readme": "https://github.com/Adafede/SpectRalLibRaRies/blob/main/.github/README.md",
   "developmentStatus": "https://lifecycle.r-lib.org/articles/stages.html#experimental"
