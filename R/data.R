@@ -27,8 +27,6 @@
 #' data(gnps_pos)
 #' head(gnps_pos)
 #' nrow(gnps_pos)
-#'
-#' @export
 "gnps_pos"
 
 #' GNPS Spectral Library - Negative Polarity
@@ -46,8 +44,6 @@
 #' data(gnps_neg)
 #' head(gnps_neg)
 #' nrow(gnps_neg)
-#'
-#' @export
 "gnps_neg"
 
 #' MassBank Spectral Library - Positive Polarity
@@ -77,8 +73,6 @@
 #' @examples
 #' data(massbank_pos)
 #' head(massbank_pos)
-#'
-#' @export
 "massbank_pos"
 
 #' MassBank Spectral Library - Negative Polarity
@@ -92,8 +86,6 @@
 #' @examples
 #' data(massbank_neg)
 #' head(massbank_neg)
-#'
-#' @export
 "massbank_neg"
 
 #' Merlin Spectral Library - Positive Polarity
@@ -108,8 +100,6 @@
 #' @examples
 #' data(merlin_pos)
 #' head(merlin_pos)
-#'
-#' @export
 "merlin_pos"
 
 #' Merlin Spectral Library - Negative Polarity
@@ -123,8 +113,6 @@
 #' @examples
 #' data(merlin_neg)
 #' head(merlin_neg)
-#'
-#' @export
 "merlin_neg"
 
 #' MultiMS2 Spectral Library - Positive Polarity
@@ -154,8 +142,6 @@
 #' data(multims2_pos)
 #' head(multims2_pos)
 #' nrow(multims2_pos)
-#'
-#' @export
 "multims2_pos"
 
 #' MultiMS2 Spectral Library - Negative Polarity
@@ -169,8 +155,6 @@
 #' @examples
 #' data(multims2_neg)
 #' head(multims2_neg)
-#'
-#' @export
 "multims2_neg"
 
 #' Enveda-180 Spectral Library - Positive Polarity
@@ -185,8 +169,6 @@
 #' @examples
 #' data(enveda180_pos)
 #' head(enveda180_pos)
-#'
-#' @export
 "enveda180_pos"
 
 #' Enveda-180 Spectral Library - Negative Polarity
@@ -200,8 +182,6 @@
 #' @examples
 #' data(enveda180_neg)
 #' head(enveda180_neg)
-#'
-#' @export
 "enveda180_neg"
 
 #' ISDB NormanSusDat Spectral Library - Positive Polarity
@@ -217,8 +197,6 @@
 #' @examples
 #' data(isdbnormansusdat_pos)
 #' head(isdbnormansusdat_pos)
-#'
-#' @export
 "isdbnormansusdat_pos"
 
 #' ISDB NormanSusDat Spectral Library - Negative Polarity
@@ -233,8 +211,6 @@
 #' @examples
 #' data(isdbnormansusdat_neg)
 #' head(isdbnormansusdat_neg)
-#'
-#' @export
 "isdbnormansusdat_neg"
 
 #' ISDB Wikidata Spectral Library - Positive Polarity
@@ -250,8 +226,6 @@
 #' @examples
 #' data(isdbwikidata_pos)
 #' head(isdbwikidata_pos)
-#'
-#' @export
 "isdbwikidata_pos"
 
 #' ISDB Wikidata Spectral Library - Negative Polarity
@@ -266,8 +240,6 @@
 #' @examples
 #' data(isdbwikidata_neg)
 #' head(isdbwikidata_neg)
-#'
-#' @export
 "isdbwikidata_neg"
 
 #' GNPS Prepared Table
@@ -282,8 +254,6 @@
 #' @examples
 #' data(gnps_prepared)
 #' head(gnps_prepared)
-#'
-#' @export
 "gnps_prepared"
 
 #' MassBank Prepared Table
@@ -298,8 +268,6 @@
 #' @examples
 #' data(massbank_prepared)
 #' head(massbank_prepared)
-#'
-#' @export
 "massbank_prepared"
 
 #' Merlin Prepared Table
@@ -314,8 +282,6 @@
 #' @examples
 #' data(merlin_prepared)
 #' head(merlin_prepared)
-#'
-#' @export
 "merlin_prepared"
 
 #' MultiMS2 Prepared Table
@@ -330,8 +296,6 @@
 #' @examples
 #' data(multims2_prepared)
 #' head(multims2_prepared)
-#'
-#' @export
 "multims2_prepared"
 
 #' Enveda-180 Prepared Table
@@ -347,8 +311,6 @@
 #' @examples
 #' data(enveda180_prepared)
 #' head(enveda180_prepared)
-#'
-#' @export
 "enveda180_prepared"
 
 #' ISDB NormanSusDat Prepared Table
@@ -363,8 +325,6 @@
 #' @examples
 #' data(isdbnormansusdat_prepared)
 #' head(isdbnormansusdat_prepared)
-#'
-#' @export
 "isdbnormansusdat_prepared"
 
 #' ISDB Wikidata Prepared Table
@@ -379,6 +339,4 @@
 #' @examples
 #' data(isdbwikidata_prepared)
 #' head(isdbwikidata_prepared)
-#'
-#' @export
 "isdbwikidata_prepared"
