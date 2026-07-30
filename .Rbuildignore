@@ -49,4 +49,6 @@
 ^vignettes/\.qmd$
 ^vignettes/\.quarto$
 
+^grateful-refs\.bib$
+
 _\.new\.png$
