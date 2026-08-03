@@ -1,6 +1,7 @@
 Package: SpectRalLibRaRies
 Title: Spectral Libraries from Multiple MS/MS Databases
 Version: 0.0.0.9001
+Author: Adriano Rutz
 Authors@R: c(
     person(
         given = "Adriano",
