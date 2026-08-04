@@ -2,7 +2,7 @@
 #'
 #' This master script orchestrates the generation of all spectral library datasets
 #' split by polarity (positive/negative).
-#' 
+#'
 #' Workflow:
 #' 1. Run inst/scripts/*_spectra.R to download/prepare and save intermediate RDS
 #'    (RDS files preserve polarity splits if present)
@@ -42,22 +42,25 @@ failed <- character()
 
 for (dataset in datasets) {
   script_path <- file.path("data-raw", paste0(dataset, ".R"))
-  
+
   if (!file.exists(script_path)) {
     warning("SKIP: ", script_path, " not found")
     failed <- c(failed, dataset)
     next
   }
-  
+
   message("\n→ Generating ", dataset, " (split by polarity)...")
-  
-  tryCatch({
-    source(script_path)
-    generated <- c(generated, dataset)
-  }, error = function(e) {
-    warning("ERROR in ", dataset, ": ", conditionMessage(e))
-    failed <<- c(failed, dataset)
-  })
+
+  tryCatch(
+    {
+      source(script_path)
+      generated <- c(generated, dataset)
+    },
+    error = function(e) {
+      warning("ERROR in ", dataset, ": ", conditionMessage(e))
+      failed <<- c(failed, dataset)
+    }
+  )
 }
 
 elapsed <- format(difftime(Sys.time(), start_time))
@@ -65,11 +68,18 @@ elapsed <- format(difftime(Sys.time(), start_time))
 message("\n")
 message("════════════════════════════════════════════════════════════════════")
 message("Summary: Generated in ", elapsed)
-message("✓ Success: ", length(generated), " - ", paste(generated, collapse = ", "))
+message(
+  "✓ Success: ",
+  length(generated),
+  " - ",
+  paste(generated, collapse = ", ")
+)
 if (length(failed) > 0) {
   message("✗ Failed: ", length(failed), " - ", paste(failed, collapse = ", "))
 }
-message("════════════════════════════════════════════════════════════════════\n")
+message(
+  "════════════════════════════════════════════════════════════════════\n"
+)
 
 # Show generated files
 rda_files <- list.files("data", pattern = "\\.rda$", full.names = TRUE)

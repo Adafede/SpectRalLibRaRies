@@ -7,7 +7,7 @@ test_that("All datasets load without error", {
   data(enveda)
   data(normansusdat)
   data(wikidata)
-  
+
   expect_true(is.data.frame(gnps))
   expect_true(is.data.frame(massbank))
   expect_true(is.data.frame(merlin))
@@ -20,7 +20,7 @@ test_that("All datasets load without error", {
 # Test that required columns are present
 test_that("Datasets have required columns", {
   data(gnps)
-  
+
   required_cols <- c("mz", "intensity", "source_reference", "source_license")
   expect_true(all(required_cols %in% colnames(gnps)))
 })
@@ -28,7 +28,7 @@ test_that("Datasets have required columns", {
 # Test that mz and intensity are list columns
 test_that("mz and intensity are list columns", {
   data(gnps)
-  
+
   expect_true(is.list(gnps$mz))
   expect_true(is.list(gnps$intensity))
 })
@@ -36,8 +36,9 @@ test_that("mz and intensity are list columns", {
 # Test that mz and intensity have consistent length
 test_that("mz and intensity have same length per spectrum", {
   data(gnps)
-  
-  for (i in seq_len(min(nrow(gnps), 100))) {  # Check first 100
+
+  for (i in seq_len(min(nrow(gnps), 100))) {
+    # Check first 100
     expect_equal(length(gnps$mz[[i]]), length(gnps$intensity[[i]]))
   }
 })
